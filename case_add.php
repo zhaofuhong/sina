@@ -1,6 +1,7 @@
 <meta charset="utf-8">
 <?php 
 include 'databases.php';
+aa='haha';
 if (isset($_POST['tijiao'])){  //判断是否有文件提交操作，判断按钮<input type="submit" name="file" value="上传" />
  $xin='';
  if ($_FILES['file']['error']==0){
